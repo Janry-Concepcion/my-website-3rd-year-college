@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Contact - My Personal Website</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../img/akin.png" alt="Janry Logo">
+        </div>
+        <button class="menu_button" onclick="Menu()">☰</button>
+        <ul class="top_nav" id="topnav">
+            <li><a href="/my-website-3rd-year-college/">Home</a></li>
+            <li><a href="/my-website-3rd-year-college/about/">About</a></li>
+            <li><a href="/my-website-3rd-year-college/portfolio/">Portfolio</a></li>
+            <li><a href="/my-website-3rd-year-college/contact/">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        function Menu() {
+            document.getElementById("topnav").classList.toggle("show");
+        }
+    </script>
+      <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Have a question or want to work together? Reach out!</p>
+
+        <div class="contact_container">
+            <form action="submit_form.php" method="POST" class="contact_form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Full Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your Message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact_info">
+                <h3>Contact Information</h3>
+                <p><span>Email:</span> concepcionjanry09@gmail.com</p>
+                <p><span>Phone:</span> 0970 825 8152</p>
+                <p><span>Location:</span> Balibago Santa Rosa City, Laguna Philippines</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer_content">
+            <p>&copy; 2025 JC. All Rights Reserved.</p>
+            <ul class="social_media">
+                <li><a href="https://www.facebook.com/parkdyanree" target="_blank">
+                    <img src="img/icons8-facebook-96.png" alt="Facebook" class="icon"></a>
+                </li>
+                <li><a href="https://www.instagram.com/park_dyanree/" target="_blank">
+                    <img src="img/icons8-instagram-96.png" alt="Instagram" class="icon"> </a>
+                </li>
+            </ul>
+            <ul class="footer_policy">
+                <li><a href="/terms-of-service">Terms of Service</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage - My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">
+        <img src="img/akin.png" alt="Janry Logo">
+    </div>
+    <button class="menu_button" onclick="Menu()">☰</button>
+    <ul class="top_nav" id="topnav">
+        <li><a href="/my-website-3rd-year-college/">Home</a></li>
+        <li><a href="/my-website-3rd-year-college/about/">About</a></li>
+        <li><a href="/my-website-3rd-year-college/portfolio/">Portfolio</a></li>
+        <li><a href="/my-website-3rd-year-college/contact/">Contact</a></li>
+    </ul>
+</nav>
+
+<script>
+    function Menu() {
+        document.getElementById("topnav").classList.toggle("show");
+    }
+</script>
+
+<section class="homepage">
+    <div class="homepage_text">
+        <h1>Hello! I'm <span>Janry</span></h1>
+        <p>UI/UX Designer</p>
+        <a href="contact.html">
+            <button class="contact_me">Contact Me</button>
+        </a>
+        <a href="portfolio.html">
+            <button class="my_works">My Works</button>
+        </a>
+    </div>
+    <div class="homepage_image">
+        <div class="image_container">
+            <img src="img/Ako.png" alt="My Picture">
+        </div>
+    </div>
+</section>
+
+<section class="about_me_homepage" id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm <strong>Janry Concepcion</strong>, a passionate UI/UX Designer dedicated to designing seamless and visually stunning digital experiences. I specialize in creating user-friendly interfaces that not only look great but also enhance usability. Let's collaborate and bring ideas to life!</p>
+</section>
+
+<section class="homepage_skills">
+    <h2>Skills</h2>
+    <div class="skills_content">
+        <div class="skills">
+            <h4>UI/UX Design</h4>
+            <p>Creating user-friendly and engaging digital experiences.</p>
+        </div>
+        <div class="skills">
+            <h4>Web Design</h4>
+            <p>Designing modern, aesthetic, and functional websites.</p>
+        </div>
+        <div class="skills">
+            <h4>Prototyping</h4>
+            <p>Creating wireframes and interactive prototypes.</p>
+        </div>
+        <div class="skills">
+            <h4>Graphic Design (Canva)</h4>
+            <p>Creating visually appealing content using Canva.</p>
+        </div>
+    </div>
+</section>
+
+<section class="homepage_project">
+    <h2>Recent Works</h2>
+    <div class="Container">
+        <div>
+             <img src="img/Trifold_1.png" alt="Trifold Canva Design">
+             <p>Trifold Canva Design</p>
+        </div>
+         <div>
+             <img src="img/Project 8 (3).png" alt="Login Page">
+             <p>Deskstop Login Page</p>
+             
+        </div>
+        <div>
+             <img src="img/Project 1.png" alt="Project 1">
+            <p>Layout Landing Page</p>
+        </div>
+        <div>
+            <img src="img/Project 2.png" alt="Project 2">
+            <p>Prototype Login Page</p>
+        </div>
+          <div>
+            <img src="img/Project 6.png" alt="Project 6">
+            <p>Registration</p>
+        </div>
+        <div>
+             <img src="img/Project 7.png" alt="Project 3a">
+             <p>Prototype Web Page</p>
+        </div>
+    </div>
+    <a href="portfolio.html" class="view_more">View More</a>
+
+</section>
+<section class="homepage_reachout">
+    <h2>Want to Work Together?</h2>
+    <p>I'm always open to exciting projects and collaborations. Let’s create something amazing!</p>
+    <a href="contact.html"><button>Contact Me</button></a>
+</section>
+</body>
+<footer>
+    <div class="footer_content">
+        <p>&copy; 2025 JC. All Rights Reserved.</p>
+        <ul class="social_media">
+            <li><a href="https://www.facebook.com/parkdyanree" target="_blank">
+                <img src="img/icons8-facebook-96.png" alt="Facebook" class="icon"></a>
+            </li>
+            <li><a href="https://www.instagram.com/park_dyanree/" target="_blank">
+                <img src="img/icons8-instagram-96.png" alt="Instagram" class="icon"> </a>
+            </li>
+        </ul>
+        <ul class="footer_policy">
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+        </ul>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Portfolio - My Personal Website</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../img/akin.png" alt="Janry Logo">
+        </div>
+        <button class="menu_button" onclick="Menu()">☰</button>
+        <ul class="top_nav" id="topnav">
+            <li><a href="/my-website-3rd-year-college/">Home</a></li>
+            <li><a href="/my-website-3rd-year-college/about/">About</a></li>
+            <li><a href="/my-website-3rd-year-college/portfolio/">Portfolio</a></li>
+            <li><a href="/my-website-3rd-year-college/contact/">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        function Menu() {
+            document.getElementById("topnav").classList.toggle("show");
+        }
+    </script>
+   <section class="portfolio_title">
+    <h2>My Portfolio</h2>
+    </section>
+
+<section class="portfolio">
+    <div class="project">
+        <a href="../img/canva" target="_blank">
+            <img src="img/Trifold_1.png" alt="Canva Design">
+        </a>
+        <h3>My Canva Design</h3>
+        <p>Click the image to view the full design.</p>
+    </div>
+
+    <div class="project">
+        <video controls>
+            <source src="img/CONCEPCION, JANRY A. (UTS-VIDEO PRESENTATION).mp4" type="video/mp4">
+        </video>
+        <h3>Multimedia Design</h3>
+        <p>A glimpse into my life through my own lens. I filmed and edited this video to tell my story in my own way.</p>
+    </div>
+
+    <div class="project">
+        <img src="../img/cloud.jpg" alt="Project 1">
+        <h3>Photography & Photo Editing</h3>
+    </div>
+
+    <div class="project">
+        <img src="../img/station.jpg" alt="train station">
+        <h3>Photography & Photo Editing</h3>
+    </div>
+
+    <div class="project">
+        <img src="../img/Sunset 1.jpg" alt="Sunset">
+        <h3>Photography & Photo Editing</h3>
+    </div>
+    
+    <div class="project">
+        <a href="project/Responsive/web.html" target="_blank">
+            <img src="../img/responsive.png" alt="HTML & CSS Project">
+        </a>
+        <h3>My HTML & CSS Project</h3>
+        <p>This is a website I built using HTML & CSS.</p>
+        <a href="../project//Responsive/web.html" target="_blank">
+            <button>View Project</button>
+        </a>
+    </div>
+</section>
+
+<section class="mail">
+    <h2>Want to Work Together?</h2>
+    <p>I'm always open to exciting projects and collaborations. Let’s create something amazing!</p>
+    <a href="contact.html"><button>Contact Me</button></a>
+</section>
+    </div>
+</body>
+<footer>
+    <div class="footer_content">
+        <p>&copy; 2025 JC. All Rights Reserved.</p>
+        <ul class="social_media">
+            <li><a href="https://www.facebook.com/parkdyanree" target="_blank">
+                <img src="img/icons8-facebook-96.png" alt="Facebook" class="icon"></a>
+            </li>
+            <li><a href="https://www.instagram.com/park_dyanree/" target="_blank">
+                <img src="img/icons8-instagram-96.png" alt="Instagram" class="icon"> </a>
+            </li>
+        </ul>
+        <ul class="footer_policy">
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+        </ul>
+    </div>
+</footer>
+</html>
