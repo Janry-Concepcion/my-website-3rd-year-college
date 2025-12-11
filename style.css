@@ -121,7 +121,6 @@ body {
     background: #f8f9fa;   
     text-align: center;
     
-
 }
 .about_me_homepage p{
     color: black;
@@ -135,7 +134,7 @@ body {
 .image_container {
     position: relative;
     width: 100%;
-    max-width: 400px; 
+    max-width: 500px; 
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: #cae9ff;
@@ -157,16 +156,21 @@ body {
     .homepage {
         flex-direction: column-reverse;
         text-align: center;
+        padding-top: 30px;
     }
     .homepage_text {
         max-width: 100%;
-        margin-top: 20px;
+        margin-top: -5px; 
+    }
+    .homepage_text h1 {
+        margin-top: 0;
+        padding-top: 30px;
     }
     .homepage_image {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .image_container {
-        max-width: 300px; 
+        max-width: 350px; 
     }
 }
 
