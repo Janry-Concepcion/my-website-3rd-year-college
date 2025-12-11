@@ -155,17 +155,23 @@ body {
 }
 @media (max-width: 768px) {
     .homepage {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
     .homepage_text {
         max-width: 100%;
+        margin-top: 20px;
+    }
+    .homepage_image {
         margin-bottom: 20px;
     }
     .image_container {
         max-width: 300px; 
     }
 }
+
+
+/*Homepage skills*/
 .homepage_skills {
     text-align: center;
     padding: 50px;
@@ -582,6 +588,7 @@ p {
         max-width: 400px;
     }
 }
+
 
 /* FOOTER PAGE */
 footer {
